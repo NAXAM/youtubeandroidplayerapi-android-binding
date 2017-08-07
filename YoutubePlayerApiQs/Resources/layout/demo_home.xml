@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Google Inc. All Rights Reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+  <TextView
+      android:textColor="#ffffff"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="14dp"
+      android:text="Please select a demo:"/> 
+  <Button
+      android:id="@+id/btn_video_list"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Video List"
+      android:textColor="#ffffff" />
+  <Button
+      android:id="@+id/btn_simple_playerview"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Simple PlayerView"
+      android:textColor="#ffffff" />
+  <Button
+      android:id="@+id/btn_simple_playerfragment"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Simple PlayerFragment"
+      android:textColor="#ffffff" />
+  <Button
+      android:id="@+id/btn_custom_player_control"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Custom Player Controls"
+      android:textColor="#ffffff" />
+  <Button
+      android:id="@+id/btn_custom_fullscreen_handling"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Custom Fullscreen Handling"
+      android:textColor="#ffffff" />
+  <Button
+      android:id="@+id/btn_standalone_player"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Standalone Player"
+      android:textColor="#ffffff" />
+  <Button
+      android:id="@+id/btn_youtube_launcher_intent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Youtube App Launcher Intents"
+      android:textColor="#ffffff" />
+  <Button
+      android:id="@+id/btn_video_wall"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Videl Wall"
+      android:textColor="#ffffff" />
+</LinearLayout>
