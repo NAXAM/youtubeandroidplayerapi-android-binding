@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.YouTubePlayerApi.Droid</id>
+        <version>1.2.2</version>
+        <description>Xamarin Binding Library - Google::YouTubePlayerApi</description>
+        <authors>NAXAM</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Google::YouTubePlayerApi</title>
+        <releaseNotes>Google::YouTubePlayerApi v1.2.2</releaseNotes>
+        <summary>Xamarin Binding Library - Google::YouTubePlayerApi</summary>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/youtubeandroidplayerapi-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, youtubeplayer</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.YoutubePlayerApi.Droid/bin/Release/Naxam.YoutubePlayerApi.Droid.dll" 
+		target="lib/MonoAndroid10/Naxam.YoutubePlayerApi.Droid.dll" />
+    </files>
+</package>
