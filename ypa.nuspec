@@ -3,20 +3,21 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.YouTubePlayerApi.Droid</id>
-        <version>1.2.2</version>
-        <description>Xamarin Binding Library - Google::YouTubePlayerApi</description>
+        <version>1.2.2.1</version>
         <authors>NAXAM</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <title>Naxam - Google::YouTubePlayerApi</title>
-        <releaseNotes>Google::YouTubePlayerApi v1.2.2</releaseNotes>
-        <summary>Xamarin Binding Library - Google::YouTubePlayerApi</summary>
+        <title>Naxam - YouTubePlayer for Android</title>
+        <summary>Xamarin.Android Binding Library - YouTubePlayerApi</summary>
+        <description>Xamarin.Android Binding Library - YouTubePlayerApi</description>
+        <releaseNotes>Google::YouTubePlayerApi v1.2.2/Add dependencies</releaseNotes>
         <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/youtubeandroidplayerapi-android-binding</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
-        <tags>Xamarin.Android, youtubeplayer</tags>
+        <tags>Xamarin.Android, youtube, youtubeplayer, YouTubeAndroidPlayerApi</tags>
         <dependencies>
+            <dependency id="Xamarin.Android.Support.v4" version="25.4.0.2" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
